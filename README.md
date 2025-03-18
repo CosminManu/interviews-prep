@@ -79,4 +79,4 @@ This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE)
 
 ---
 
-**Happy studying and best of luck with your coding journey!** 🎉🚀
+**Happy studying and good of luck!** 🎉🚀
