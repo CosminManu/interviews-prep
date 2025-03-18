@@ -2,7 +2,7 @@
 
 ### 🔹 Multiple-Choice Questions
 
-For the correct answers, refer to the [Java Answers](./JavaQuestions/Java_Answers.md) file.
+For the correct answers, refer to the [Java Answers](./Java_Answers.md) file.
 
 #### 1. What will happen if you try to compile and run the following code?
 ```java
