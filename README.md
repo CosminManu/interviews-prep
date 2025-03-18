@@ -10,9 +10,9 @@ Welcome! This collection is designed to help developers sharpen their skills and
 
 This repository contains multiple sets of carefully curated **multiple-choice questions** covering various topics and technologies, including:
 
-- ** Java**: From basic to advanced questions on **core Java, OOP concepts, multithreading, design patterns, and more**.
-- ** .NET (C#)**: Questions covering **ASP.NET MVC, MVVM, design patterns, LINQ, Entity Framework, asynchronous programming**, and other .NET-specific features.
-- ** SQL**: Advanced SQL questions featuring **query syntax, window functions, recursive CTEs, indexing, dynamic SQL, pivoting, and performance optimization**.
+- **Java**: From basic to advanced questions on **core Java, OOP concepts, multithreading, design patterns, and more**.
+- **.NET (C#)**: Questions covering **ASP.NET MVC, MVVM, design patterns, LINQ, Entity Framework, asynchronous programming**, and other .NET-specific features.
+- **SQL**: Advanced SQL questions featuring **query syntax, window functions, recursive CTEs, indexing, dynamic SQL, pivoting, and performance optimization**.
 
 Each question set is organized into its own file or folder, making it easy to locate and use the material for training.
 
