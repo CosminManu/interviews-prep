@@ -8,17 +8,20 @@
 4. **D.** All of the above
 5. **B.** It automatically closes resources that implement the `AutoCloseable` interface.
 6. **B.** It rolls back the transaction only for unchecked exceptions.
-7. **D.** It does not allow duplicate keys but allows duplicate values.
-8. **A.** "3345"
-9. **A.** `final`
-10. **A.** `run()`
-11. **C.** Both A and B
-12. **A.** To refer to the immediate parent class instance
-13. **A.** `abstract void method();`
-14. **C.** Supports multiple inheritance via classes
-15. **A.** `public static void main(String[] args)`
-16. **A.** `ArrayIndexOutOfBoundsException`
-17. **A.** Automatic conversion of primitive types to their corresponding object wrapper classes
-18. **A.** `public <T> void print(T t) { System.out.println(t); }`
-19. **B.** Java Virtual Machine
-20. **B.** An interface can contain static methods with implementations
+7. **D.** `TreeSet<NullPointerException>()`
+8. **D.** It does not allow duplicate keys but allows duplicate values.
+9. **C.** All fields are private and final.
+10.**C.** It will throw a NullPointerException
+11. **A.** "3345"
+12. **A.** `final`
+13. **A.** `run()`
+14. **C.** Both A and B
+15. **A.** To refer to the immediate parent class instance
+16. **A.** `abstract void method();`
+17. **C.** Supports multiple inheritance via classes
+18. **A.** `public static void main(String[] args)`
+19. **A.** `ArrayIndexOutOfBoundsException`
+20. **A.** Automatic conversion of primitive types to their corresponding object wrapper classes
+21. **A.** `public <T> void print(T t) { System.out.println(t); }`
+22. **B.** Java Virtual Machine
+23. **B.** An interface can contain static methods with implementations

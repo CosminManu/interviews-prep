@@ -54,15 +54,40 @@ System.out.println(s1 == s2);
 - C. It does not roll back the transaction for any exceptions.
 - D. It rolls back the transaction only for specific checked exceptions.  
 
+#### 7. Which of the following statements can complete the statement to successfully compile the code:
+`Set<? extends RuntimeException> mySet = ____________;`
+A. `HashSet<? extends RuntimeException>()`
+B. `HashSet<Exception>()`
+C. `TreeSet<Exception>()`
+D. `TreeSet<NullPointerException>()`
 
-#### 7. Which of the following statements is true about the Java `HashMap`?
+
+#### 8. Which of the following statements is true about the Java `HashMap`?
 - A. It is synchronized and thread-safe.
 - B. It allows null keys and null values.
 - C. It maintains the order of elements based on their insertion.
 - D. It does not allow duplicate keys but allows duplicate values.  
 
 
-#### 8. What is the output of the following code snippet?
+#### 9. Which of the following is a characteristic of an immutable class?
+A. All fields are public.
+B. The class can be subclassed.
+C. All fields are private and final.
+D. It has setter methods for its fields.
+
+
+#### 10. What will happen if you try to compile and run the following code?
+```java
+String s = null;
+System.out.println(s.length());
+```
+A. It will print "0"
+B. It will print "null"
+C. It will throw a NullPointerException
+D. It will compile successfully but throw a runtime error
+
+
+#### 11. What is the output of the following code snippet?
 ```java
 System.out.println(1 + 2 + "3" + 4 + 5);
 ```
