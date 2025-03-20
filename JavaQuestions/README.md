@@ -56,10 +56,10 @@ System.out.println(s1 == s2);
 
 #### 7. Which of the following statements can complete the statement to successfully compile the code:
 `Set<? extends RuntimeException> mySet = ____________;`
-A. `HashSet<? extends RuntimeException>()`
-B. `HashSet<Exception>()`
-C. `TreeSet<Exception>()`
-D. `TreeSet<NullPointerException>()`
+- A. `HashSet<? extends RuntimeException>()`
+- B. `HashSet<Exception>()`
+- C. `TreeSet<Exception>()`
+- D. `TreeSet<NullPointerException>()`
 
 
 #### 8. Which of the following statements is true about the Java `HashMap`?
@@ -70,10 +70,10 @@ D. `TreeSet<NullPointerException>()`
 
 
 #### 9. Which of the following is a characteristic of an immutable class?
-A. All fields are public.
-B. The class can be subclassed.
-C. All fields are private and final.
-D. It has setter methods for its fields.
+- A. All fields are public.
+- B. The class can be subclassed.
+- C. All fields are private and final.
+- D. It has setter methods for its fields.
 
 
 #### 10. What will happen if you try to compile and run the following code?
@@ -81,10 +81,10 @@ D. It has setter methods for its fields.
 String s = null;
 System.out.println(s.length());
 ```
-A. It will print "0"
-B. It will print "null"
-C. It will throw a NullPointerException
-D. It will compile successfully but throw a runtime error
+- A. It will print "0"
+- B. It will print "null"
+- C. It will throw a NullPointerException
+- D. It will compile successfully but throw a runtime error
 
 
 #### 11. What is the output of the following code snippet?
@@ -97,86 +97,141 @@ System.out.println(1 + 2 + "3" + 4 + 5);
 - D. "6 345"  
 
 
-#### 9. Which keyword is used to prevent a class from being subclassed in Java?
+#### 12. Which keyword is used to prevent a class from being subclassed in Java?
 - A. `final`
 - B. `static`
 - C. `abstract`
 - D. `private`  
 
 
-#### 10. Which method must be implemented by all threads in Java if they extend the `Thread` class?
+#### 13. Which of the following is not a valid access modifier in Java?
+- A. public
+- B. protected
+- C. package
+- D. private
+
+
+#### 14. Which method must be implemented by all threads in Java if they extend the `Thread` class?
 - A. `run()`
 - B. `start()`
 - C. `main()`
 - D. `execute()`  
 
 
-#### 11. Which of the following is the correct way to declare an array of integers in Java?
+#### 15. Which of the following is true about the Java `finally` block?
+- A. It executes only if an exception is thrown.
+- B. It always executes, regardless of whether an exception is thrown.
+- C. It executes only if no exception is thrown.
+- D. It is optional and rarely used.
+
+
+#### 16. Which of the following is the correct way to declare an array of integers in Java?
 - A. `int[] arr;`
 - B. `int arr[];`
 - C. Both A and B
 - D. None of the above  
 
 
-#### 12. What is the purpose of the `super` keyword in Java?
+#### 17. What is the purpose of the `super` keyword in Java?
 - A. To refer to the immediate parent class instance
 - B. To call a static method
 - C. To define a class as a subclass
 - D. To allocate memory  
 
 
-#### 13. Which of the following correctly declares an abstract method in an abstract class?
+#### 18. Which of the following correctly declares an abstract method in an abstract class?
 - A. `abstract void method();`
 - B. `void method() = 0;`
 - C. `virtual void method();`
 - D. `public abstract method();`  
 
 
-#### 14. Which of these is not a feature of the Java programming language?
+#### 19. Which of the following statements correctly describes exception handling in Java?
+- A. Exceptions can only be handled using try-catch blocks
+- B. Exceptions can be propagated using the throws keyword
+- C. Exceptions cannot be caught once thrown
+- D. Exceptions are always runtime exceptions
+
+#### 20. Which of these is not a feature of the Java programming language?
 - A. Object-oriented
 - B. Platform-independent
 - C. Supports multiple inheritance via classes
 - D. Automatic garbage collection  
 
 
-#### 15. What is the correct way to start the main method in Java?
+#### 21. Which method in the Object class is used to obtain a string representation of an object?
+- A. `toString()`
+- B. `getString()`
+- C. `valueOf()`
+- D. `format()`
+
+
+#### 22. Which keyword is used to inherit a class in Java?
+- A. implements
+- B. extends
+- C. inherits
+- D. super
+
+
+
+#### 23. What is the correct way to start the main method in Java?
 - A. `public static void main(String[] args)`
 - B. `public static void Main(String args[])`
 - C. `public void main(String[] args)`
 - D. `static void main(String[] args)`  
 
 
-#### 16. Which exception is thrown when an array is accessed with an illegal index?
+#### 24. What does JVM stand for in Java?
+- A. Java Variable Machine
+- B. Java Virtual Machine
+- C. Java Visual Machine
+- D. Java Verified Machine
+
+#### 25. Which of the following statements about Java is true?
+- A. Java supports operator overloading.
+- B. Java supports multiple inheritance of classes.
+- C. Java supports multithreading.
+- D. Java supports pointers.
+
+
+#### 26. Which exception is thrown when an array is accessed with an illegal index?
 - A. `ArrayIndexOutOfBoundsException`
 - B. `NullPointerException`
 - C. `IllegalArgumentException`
 - D. `ArrayStoreException`  
 
 
-#### 17. What is autoboxing in Java?
+#### 27. What is autoboxing in Java?
 - A. Automatic conversion of primitive types to their corresponding object wrapper classes
 - B. Automatic conversion of objects to primitive types
 - C. Automatic garbage collection
 - D. Automatic memory allocation  
 
 
-#### 18. Which of the following correctly demonstrates the use of a generic method in Java?
+#### 28. Which of the following correctly demonstrates the use of a generic method in Java?
 - A. `public <T> void print(T t) { System.out.println(t); }`
 - B. `public void print(T t) { System.out.println(t); }`
 - C. `public T print(T t) { System.out.println(t); }`
 - D. `public void <T> print(T t) { System.out.println(t); }`  
 
 
-#### 19. What does JVM stand for in Java?
-- A. Java Variable Machine
-- B. Java Virtual Machine
-- C. Java Visual Machine
-- D. Java Verified Machine  
-
-
-#### 20. Which statement about Java interfaces is correct?
+#### 29. Which statement about Java interfaces is correct?
 - A. An interface can contain instance fields.
 - B. An interface can contain static methods with implementations.
 - C. An interface can have constructors.
 - D. An interface cannot extend another interface.  
+
+#### 30. What is the default value of a boolean instance variable in Java?
+- A. true
+- B. false
+- C. null
+- D. 0
+
+
+#### 31. Which of the following is the correct way to declare a constant in Java?
+- A. `final int CONSTANT = 10;`
+- B. `const int CONSTANT = 10;`
+- C. `int CONSTANT = 10;`
+- D. `static final int CONSTANT = 10;`
+
 
